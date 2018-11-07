@@ -4,7 +4,7 @@ function produceDrivingRange(blockRange){
     let y = parseInt(q.slice(0,2))
 
     if ((y-x) > blockRange){
-      return `${(y-x)-range} blocks out of range`
+      return `${(y-x)-blockRange} blocks out of range`
     }
     else {
       return `within range by ${blockRange - (y-x)}`
