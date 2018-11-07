@@ -2,7 +2,7 @@ function produceDrivingRange(blockRange){
   return function (p,q){
     let x = parseInt(p.slice(0,2))
     let y = parseInt(q.slice(0,2))
-    
+
     if ((y-x) > blockRange){
       return `${(y-x)-range} blocks out of range`
     }
