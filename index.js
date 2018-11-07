@@ -6,8 +6,8 @@ function produceDrivingRange(range){
     else {
       `within range by ${range- (y-x)}`
     }
-    
+
   }
-    
+
   }
-}
+
